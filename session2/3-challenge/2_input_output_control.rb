@@ -22,7 +22,7 @@ puts "Enter a number"
 
 while number = gets
   number.to_i.times do
-  		print "hi "
+  	print "hi "
   	end
   break if number.chomp == 'bye'
 end
