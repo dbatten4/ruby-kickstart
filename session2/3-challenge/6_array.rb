@@ -15,3 +15,17 @@
 # prime_chars? ['a', 'bcd']       # => false
 # prime_chars? ['a', 'b', 'cd']   # => false
 
+require 'prime'
+
+def prime_chars? (strings)
+	if Prime.prime?(strings.join.length)
+		puts true
+	else
+		puts false
+	end
+end
+
+prime_chars? ['abc'] 
+prime_chars? ['abcd'] 
+prime_chars? ['a', 'b', 'cd']
+prime_chars? ['ab', 'c'] 
