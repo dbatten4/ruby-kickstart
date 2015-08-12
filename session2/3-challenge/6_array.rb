@@ -18,11 +18,7 @@
 require 'prime'
 
 def prime_chars? (strings)
-	if Prime.prime?(strings.join.length)
-		puts true
-	else
-		puts false
-	end
+	Prime.prime?(strings.join.length)
 end
 
 prime_chars? ['abc'] 
