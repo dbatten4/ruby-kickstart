@@ -10,17 +10,11 @@ def odds_and_evens(string, return_odds)
 	toReturn = []
 	if return_odds == true
 		for i in 0..(string.length)
-			if i % 2 == 1
-				toReturn.push(array[i])
-			else
-			end
+			toReturn.push(array[i])if i % 2 == 1
 		end
 	else
 		for i in 0..(string.length)
-			if i % 2 == 0
-				toReturn.push(array[i])
-			else
-			end
+			toReturn.push(array[i])if i % 2 == 0
 		end
 	end
 	newString = toReturn.join(" ")
