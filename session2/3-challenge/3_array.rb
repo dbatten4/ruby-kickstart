@@ -10,10 +10,14 @@ class String
   	array = self.split(//)
   	toReturn = []
   	for i in 0..(self.length)
-			toReturn.push(array[i])if i % 2 == 0
-	  end
+		toReturn.push(array[i])if i % 2 == 0
+  	end
 	newString = toReturn.join()
 	puts newString
   end
   
 end
+
+"abcdefg".every_other_char
+"".every_other_char
+
