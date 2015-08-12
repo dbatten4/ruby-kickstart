@@ -12,6 +12,6 @@ def arithmetic1(n)
 	puts (n*5)-20
  end
  
-arithmetic1(10).to_s
-arithmetic1(10.5).to_s
-arithmetic1(-6).to_s
+arithmetic1(10)
+arithmetic1(10.5)
+arithmetic1(-6)
