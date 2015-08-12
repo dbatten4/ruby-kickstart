@@ -17,7 +17,7 @@ def odds_and_evens(string, return_odds)
 			toReturn.push(array[i])if i % 2 == 0
 		end
 	end
-	newString = toReturn.join(" ")
+	newString = toReturn.join()
 	puts newString
 end
 
