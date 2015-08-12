@@ -8,5 +8,16 @@
 
 # This time you will have to define the method, it's called: get_squares
 
+def get_squares (array)
+	newArray = []
+	array.each do |x|
+		newArray.push(x) if array.include? x**2
+	end
+	print newArray.sort!
+end
 
+get_squares [9]
+get_squares [9,3] 
+get_squares [9,3,81] 
+get_squares [25, 4, 9, 6, 50, 16, 5]
 
