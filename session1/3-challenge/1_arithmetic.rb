@@ -9,9 +9,9 @@
 # arithmetic1(-6)     # => -50
 
 def arithmetic1(n)
-  (n*5)-20.to_s
-end
-
-arithmetic1(10)
-arithmetic1(10.5)
-arithmetic1(-6)
+	puts (n*5)-20
+ end
+ 
+arithmetic1(10).to_s
+arithmetic1(10.5).to_s
+arithmetic1(-6).to_s
